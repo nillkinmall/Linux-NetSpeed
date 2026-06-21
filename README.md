@@ -20,7 +20,7 @@ debian/ubuntu：apt-get install ca-certificates wget -y && update-ca-certificate
 wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 ```
 
-提示：设置BBR和优化已经分开，需要各走一遍。即20和32都需要运行一遍，不分先后。  自编译cloud内核AWS无法启动，手上没机器修
+提示：设置BBR和优化已经分开，需要各走一遍。即20和32都需要运行一遍，不分先后。 AWS修好了
 
 关联action自动编译内核
 
